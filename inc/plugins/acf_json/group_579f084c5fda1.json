@@ -1,0 +1,184 @@
+{
+    "key": "group_579f084c5fda1",
+    "title": "Footer Settings",
+    "fields": [
+        {
+            "key": "field_579f0d2075936",
+            "label": "\u05d0\u05d9\u05d9\u05e7\u05d5\u05df \u05d9\u05d5\u05d8\u05d9\u05d5\u05d1",
+            "name": "youtube_icon",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_579f0d58e6b2d",
+            "label": "\u05d0\u05d9\u05d9\u05e7\u05d5\u05df \u05dc\u05d9\u05e0\u05e7\u05d8\u05d0\u05d9\u05df",
+            "name": "linkedin_icon",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_57a32ffa13b4d",
+            "label": "\u05ea\u05de\u05d5\u05e0\u05d4 \u05dc\u05e7\u05d9\u05e9\u05d5\u05e8 \u05d2\u05dc\u05d5\u05d1\u05e1",
+            "name": "globes_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_579f0885ae24d",
+            "label": "\u05e7\u05d9\u05e9\u05d5\u05e8 \u05dc\u05d9\u05d5\u05d8\u05d9\u05d5\u05d1",
+            "name": "youtube_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_579f08b1b4757",
+            "label": "\u05e7\u05d9\u05e9\u05d5\u05e8 \u05dc\u05d9\u05e0\u05e7\u05d8\u05d0\u05d9\u05df",
+            "name": "linkedin_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_579f108cd8ae0",
+            "label": "\u05dc\u05d5\u05d2\u05d5 Amcg",
+            "name": "amcg_logo",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_579f125387dad",
+            "label": "\u05dc\u05d9\u05e0\u05e7 \u05dc\u05dc\u05d5\u05d2\u05d5 \u05d2\u05dc\u05d5\u05d1\u05e1",
+            "name": "logo_globes",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_57a702f6a96a7",
+            "label": "\u05e7\u05d9\u05e9\u05d5\u05e8 \u05dc\u05d5\u05d2\u05d5 \u05d7\u05d1\u05e8\u05d4",
+            "name": "amcg-logo-link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1470563112
+}

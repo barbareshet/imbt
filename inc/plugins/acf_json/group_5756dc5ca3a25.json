@@ -1,0 +1,118 @@
+{
+    "key": "group_5756dc5ca3a25",
+    "title": "\u05de\u05db\u05e8\u05d6\u05d9\u05dd",
+    "fields": [
+        {
+            "key": "field_5756dc8114f6e",
+            "label": "\u05de\u05e1\u05de\u05db\u05d9\u05dd",
+            "name": "auctions_files",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_5756dcb114f6f",
+                    "label": "\u05de\u05e1\u05de\u05da",
+                    "name": "auctionfile",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_57c6c033d0689",
+                    "label": "\u05e9\u05dd \u05d4\u05e7\u05d5\u05d1\u05e5",
+                    "name": "file_name",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                }
+            ]
+        },
+        {
+            "key": "field_57a70bdae535e",
+            "label": "\u05ea\u05d0\u05e8\u05d9\u05da \u05de\u05db\u05e8\u05d6\u05d9\u05dd",
+            "name": "auction_date",
+            "type": "date_picker",
+            "instructions": "\u05d1\u05d7\u05e8 \u05ea\u05d0\u05e8\u05d9\u05da \u05e9\u05d1\u05d5 \u05d4\u05de\u05db\u05e8\u05d6 \u05d9\u05e1\u05ea\u05d9\u05d9\u05dd",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d\/m\/Y",
+            "return_format": "d\/m\/Y",
+            "first_day": 0
+        },
+        {
+            "key": "field_57c6c2858e06d",
+            "label": "\u05ea\u05d0\u05e8\u05d9\u05da \u05e2\u05d3\u05db\u05d5\u05df",
+            "name": "update_date",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d\/m\/Y",
+            "return_format": "d.m.Y",
+            "first_day": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "auctions"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1472643863
+}

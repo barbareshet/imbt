@@ -1,0 +1,79 @@
+{
+    "key": "group_57a30de324c4b",
+    "title": "General Settings",
+    "fields": [
+        {
+            "key": "field_57a30df022da6",
+            "label": "\u05e1\u05e7\u05e9\u05df \u05e6\u05d5\u05e8 \u05e7\u05e9\u05e8 \u05ea\u05d7\u05ea\u05d5\u05df",
+            "name": "contact_bottom",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_57a9dfd130d0d",
+            "label": "\u05ea\u05e4\u05e8\u05d9\u05d8 \u05e6\u05e3",
+            "name": "floating_menu",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "key": "field_57b4508541dd8",
+            "label": "\u05e7\u05d9\u05e9\u05d5\u05e8 \u05e6\u05d5\u05e8 \u05e7\u05e9\u05e8",
+            "name": "contact_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1471434902
+}
