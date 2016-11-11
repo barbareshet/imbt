@@ -41,6 +41,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
 	## Captions
 	## Galleries
+# Additional styles & overwrites
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -897,4 +898,13 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+/*-------------------------------------------------------------
+---------------------------------------------------------------
+# Additional styles & overwrites
+---------------------------------------------------------------
+--------------------------------------------------------------*/
+#accordion .panel-default{
+    border-right: none;
+    border-left: none;
 }

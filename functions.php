@@ -153,7 +153,7 @@ function imbt_scripts() {
         wp_enqueue_style('imbt-bootstrap-style', get_stylesheet_directory_uri() . '/assets/css/modern-business.css');
         
         //font-awesome
-        wp_enqueue_style('imbt-font-awesome', get_stylesheet_directory_uri() . '/assets/font-awesome/css/font-awesome.min.css');
+        wp_enqueue_style('imbt-font-awesome', get_stylesheet_directory_uri() . '/assets/font-awesome/css/font-awesome.min.css', array(), '4.6.3');
         
         //costomized style
         wp_enqueue_style( 'imbt-style', get_stylesheet_uri() );

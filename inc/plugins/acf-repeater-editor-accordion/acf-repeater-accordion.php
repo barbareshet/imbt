@@ -22,4 +22,4 @@ function acf_accordion() {
   }
 }
 
-//add_action('admin_head','acf_accordion');
+add_action('admin_head','acf_accordion');
