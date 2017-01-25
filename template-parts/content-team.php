@@ -30,5 +30,6 @@ $loop = new WP_Query(array(
                     </div>
                 </div>
             </div>
-            <?php endwhile;?>              
+            <?php endwhile;?>  
+                        
         </div><!-- /.row -->
